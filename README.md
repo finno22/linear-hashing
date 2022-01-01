@@ -9,4 +9,5 @@ As soon as there's a collision a bucket will be added and the key will be insert
 NextToSplit is incremented by 1. If NextToSplit equals 2^d (meaning all the rows have been split), the d_round is incremented by 1 and nextToSplit is set to zero.
 
 
+The implementation works as template. It supports a few different methods like insert, erase, size, etc.
 
